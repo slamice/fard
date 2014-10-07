@@ -1,5 +1,11 @@
 package controllers
 
+import (
+    "net/http"
+    "strconv"
+    "github.com/go-martini/martini"
+)
+
 type UserResponse struct {
     FirstName  string `json:"firstname"`
     LastName   string `json:"lastname"`
