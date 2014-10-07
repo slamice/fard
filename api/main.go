@@ -1,6 +1,9 @@
 package main
 
-import "github.com/go-martini/martini"
+import (
+  "github.com/go-martini/martini"
+  "github.com/slamice/fard/api/controllers"
+)
 
 func main() {
   m := martini.Classic()
