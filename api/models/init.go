@@ -2,6 +2,6 @@
 package models
 
 import (
-	"errors"
-	_ "github.com/lib/pq"
+    "errors"
+    _ "github.com/lib/pq"
 )
