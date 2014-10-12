@@ -1,7 +1,7 @@
 package controllers
 
 import (
-    "strconv"
+    "net/http"
     "github.com/go-martini/martini"
 )
 
@@ -12,5 +12,5 @@ type UserResponse struct {
 }
 
 func createUserHandler(rw http.ResponseWriter, req *http.Request, uid int, p martini.Params) {
-    id, err := strconv.Atoi(p["id"])
+
 }

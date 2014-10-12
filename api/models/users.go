@@ -3,6 +3,7 @@ package models
 import (
     "errors"
     "time"
+    "net/http"
     "github.com/coopernurse/gorp"
 )
 
@@ -16,7 +17,7 @@ type User struct {
     utime             time.Time      `db:"utime" json:"utime,omitempty"`
 }
 
-func InsertUser(password, email, firstName, lastName) (id int, err error) {
+func addUser(password, email, firstName, lastName) (id int, err error) {
     m := User{
         Email:      email,
         FirstName:  firstName,
@@ -32,6 +33,24 @@ func InsertUser(password, email, firstName, lastName) (id int, err error) {
     }
 
     id = u.Id
-
     return id, nil
+}
+
+func getUser(id int) (u *User, err error){
+    obj, err := dbmap.Get(User{}, id)
+    if err != nil {
+        return u, err
+    }
+    if obj == nil {
+        return u, errors.New("No User with this Id")
+    }
+    return obj.(*User), nil
+}
+
+func UpdateUser(){
+
+}
+
+func deleteUser(){
+
 }
