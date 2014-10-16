@@ -12,10 +12,10 @@ func main() {
   })
 
   m.Group("/users", func(r martini.Router) {
-    r.Get("/:id", controllers.getUser)
-    r.Post("/new", controllers.addUser)
-    r.Put("/update/:id", controllers.UpdateUser)
-    r.Delete("/delete/:id", controllers.deleteUser)
+//    r.Get("/:id", controllers.getUser)
+    r.Post("/add", controllers.AddUserHandler)
+//    r.Put("/update/:id", controllers.UpdateUser)
+//    r.Delete("/delete/:id", controllers.deleteUser)
   })
 
   m.Run()

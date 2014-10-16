@@ -36,20 +36,20 @@ func addUser(password, email, firstName, lastName) (id int, err error) {
     return id, nil
 }
 
-func getUser(id int) (u *User, err error){
-    obj, err := dbmap.Get(User{}, id)
-    if err != nil {
-        return u, err
-    }
-    if obj == nil {
-        return u, errors.New("No User with this Id")
-    }
-    return obj.(*User), nil
-}
-
-func UpdateUser(){
-
-}
+//func getUser(id int) (u *User, err error){
+//    obj, err := dbmap.Get(User{}, id)
+//    if err != nil {
+//        return u, err
+//    }
+//    if obj == nil {
+//        return u, errors.New("No User with this Id")
+//    }
+//    return obj.(*User), nil
+//}
+//
+//func UpdateUser(){
+//
+//}
 
 func deleteUser(){
 
