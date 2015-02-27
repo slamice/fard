@@ -1,0 +1,32 @@
+2015-02-27T03:35:37.440311810 0.013305s warn: Parent directory of log file (/srv/fard/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-02-27T03:35:37.441307048 0.014300s notice: Recursively removing directory /srv/fard/rethinkdb_data/tmp
+2015-02-27T03:35:37.447248583 0.020242s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/tmp" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:35:37.463842340 0.036841s notice: Initializing directory /srv/fard/rethinkdb_data
+2015-02-27T03:35:37.464320269 0.037314s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/srv/fard/rethinkdb_data' did not already exist or is empty.)
+2015-02-27T03:35:37.464615904 0.037609s notice: Running rethinkdb 1.16.2+1~0trusty (GCC 4.8.2)...
+2015-02-27T03:35:37.473512277 0.046511s notice: Running on Linux 3.13.0-36-generic x86_64
+2015-02-27T03:35:37.473984356 0.046977s notice: Loading data from directory /srv/fard/rethinkdb_data
+2015-02-27T03:35:37.485014069 0.058009s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/tmp/metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:35:37.506696243 0.079689s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/tmp/metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:35:37.530856618 0.103849s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:35:37.537939613 0.110933s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/tmp/auth_metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:35:37.548873454 0.121866s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/tmp/auth_metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:35:37.575847248 0.148840s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:35:37.594736539 0.167732s info: Automatically using cache size of 100 MB
+2015-02-27T03:35:37.595621351 0.168614s warn: Cache size does not leave much memory for server and query overhead (available memory: 548 MB).
+2015-02-27T03:35:37.595632479 0.168625s warn: Cache size is very low and may impact performance.
+2015-02-27T03:35:37.600774454 0.173767s notice: Listening for intracluster connections on port 29015
+2015-02-27T03:35:37.602792368 0.175785s notice: Listening for client driver connections on port 28015
+2015-02-27T03:35:37.609048942 0.182041s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2015-02-27T03:37:08.273845681 0.008057s warn: Parent directory of log file (/srv/fard/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-02-27T03:37:08.282423922 0.016641s notice: Running rethinkdb 1.16.2+1~0trusty (GCC 4.8.2)...
+2015-02-27T03:37:08.287787858 0.022004s notice: Running on Linux 3.13.0-36-generic x86_64
+2015-02-27T03:37:08.288325903 0.022624s notice: Loading data from directory /srv/fard/rethinkdb_data
+2015-02-27T03:37:08.301774779 0.035986s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:37:08.312819744 0.047032s warn: Failed to sync parent directory of "/srv/fard/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-02-27T03:37:08.325850844 0.060066s info: Automatically using cache size of 100 MB
+2015-02-27T03:37:08.326717729 0.060930s warn: Cache size does not leave much memory for server and query overhead (available memory: 549 MB).
+2015-02-27T03:37:08.326733495 0.060944s warn: Cache size is very low and may impact performance.
+2015-02-27T03:37:08.331734333 0.065946s notice: Listening for intracluster connections on port 29015
+2015-02-27T03:37:08.334433664 0.068645s notice: Listening for client driver connections on port 28015
+2015-02-27T03:37:08.341818218 0.076029s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
